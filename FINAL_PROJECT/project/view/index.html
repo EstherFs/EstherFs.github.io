@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../fullpage/fullpage.min.css" />
+
+    <style>
+      .carousel .carousel-item {
+        height: 100vh;
+      }
+      .carousel-item img {
+          position: absolute;
+          object-fit: cover;
+          top: 0;
+          left: 0;
+          min-height: 100vh;
+      }
+    </style>
+
+</head>
+
+
+<body style="background-color:rgb(57, 66, 106);font-family: 'Bellefair', serif;">
+    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#story_part">Loving Vincent</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#story_part">Story</a>
+            <a class="nav-link" href="#painting_part">Painting</a>
+            <a class="nav-link" href="#painter_part">Painter</a>
+            <a class="nav-link" href="#transfer_part">Transfer</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="fullpage"  data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+      <!-- story part -->
+      <div class="section active">
+        <div class="container-fluid w-70 ps-5 pe-5 pt-3 mb-5">
+          <div class="row h-30 w-60 fw-bold text-white pb-5 ps-5 pe-5" style="font-size: 2.8vw;">
+            On 27th July 1890 a gaunt figure stumbled down a drowsy high street at twilight in the small French country town of Auvers.
+          </div>
+          <div class="row align-items-top h-40">
+            <div class="col-5">
+              <img src="/image/5.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-7 text-white" style="font-size: 1.5vw;">
+              The man was carrying nothing; his hands clasped to a fresh bullet wound leaking blood from his belly.
+              <br>
+              <br>
+              This was Vincent van Gogh.
+              <br>
+              His tragic death has long been known, what has remained a mystery is how and why he came to be shot.
+              <br>
+              <br>
+              Loving Vincent explores Vincent’s life and work by bringing to life some of Vincent van Gogh’s most inspirational paintings to tell his story.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- painting_part -->
+      <div class="section">
+        <div id="painting_part_carousel" class="carousel carousel-dark slide " data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#painting_part_carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#painting_part_carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#painting_part_carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#painting_part_carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#painting_part_carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#painting_part_carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="/image/image_001.png" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="/image/image_002.png" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="/image/image_003.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="/image/image_004.png" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="/image/image_005.png" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="/image/image_006.png" class="d-block w-100" alt="">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#painting_part_carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#painting_part_carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </div>
+      <!-- painter_part -->
+      <div class="section">
+        <div class="container-fluid g-0 ms-0 me-0 w-100 v-100 mt-2">
+          <div class="row row-cols-4 g-0 h-15 fs-3 fw-bold text-center text-white" style="background-color: #78220A;">
+            <div class="col">
+              January Misiak
+            </div>
+            <div class="col">
+              CloseWiktor Jackowski
+            </div>
+            <div class="col">
+              Anna Kluza
+            </div>
+            <div class="col">
+              Monika Marchewka
+            </div>
+          </div>
+          <div class="row row-cols-4 g-0 v-75">
+              <img src="/image/1.png" class="col" alt="" style="object-fit: cover;">
+              <img src="/image/2.png" class="col" alt="" style="object-fit: cover;">
+              <img src="/image/3.png" class="col" alt="" style="object-fit: cover;">
+              <img src="/image/4.png" class="col" alt="" style="object-fit: cover;">
+          </div>
+          <div class="row row-cols-4 g-0 v-15 fs-5 text-white">
+            <div class="col">
+              Painting Animation Supervisor
+              <br>
+              Storyboard Artist
+            </div>
+            <div class="col">
+              Painting Animation Supervisor 
+              <br>
+              Lead Design Painter
+            </div>
+            <div class="col">
+              Painting Animation Supervisor 
+              <br>
+              Design Painter
+            </div>
+            <div class="col">
+              Painting Animation Supervisor
+            </div>
+          </div>
+      </div>
+      </div >
+
+      <!-- transfer part -->
+      <div class="section "  style="background-image: url(/image/6.jpg); background-position: center 60%;">
+        <div class="container-fluid w-100">
+          <div class="row fw-bold" style="font-size: 2.8vw; ">
+            <p class="text-center">Transfer Your Own Picture!</p>
+          </div>
+          <div class="row">
+            <div style="display:flex;flex-direction: row;justify-content: center;">
+
+              <div style="width:32vw; height:32vw; margin-right:10vw;"> 
+                  <img id='image-picked' src="" alt="" class="no-display" style="width: 100%; height:100%; object-fit: cover;">
+                  <div class='no-display' style="display:none;">
+                    <input id='file-input'
+                           class='no-display'
+                           type='file'
+                           name='file'
+                           accept='image/*'
+                           onchange='showPicked(this)'>
+                  </div>
+              </div>
+
+              <div style="width:32vw; height: 32vw; margin-left:10vw;" > 
+                  <img id='transfer-result' src="" alt="" style="width: 100%; height:100%;object-fit: cover;">
+              </div>
+              
+            </div>
+          <div class="row"  style="margin-bottom:5vh;margin-top:2vh;">
+            <div style="display:flex;flex-direction: row;justify-content: center;">
+                <button type="button" class="btn btn-primary" style="margin-right:3vw; width: 10vw;" onclick='showPicker()'>Upload</button>
+
+                <button id="transfer" type="button" class="btn btn-primary" style="margin-left:3vw; width: 10vw;" onclick='transfer()'>Transfer</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+</body>
+<!-- 
+<footer>
+  <p style="text-align:center; color:rgb(139, 138, 141);"><small>Copyright © 2022</small></p>
+</footer> -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="../fullpage_vendor/easings.min.js"></script>
+<script type="text/javascript" src="../fullpage/fullpage.min.js"></script>
+<script src='../static/client.js'></script>
+
+</html>
